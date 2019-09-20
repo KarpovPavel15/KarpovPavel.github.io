@@ -1,0 +1,354 @@
+html{
+    overflow-x: hidden;
+}
+body {
+    padding-top: 60px;
+    overflow-x: hidden;
+}
+.container-box{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    color: #160096;
+}
+.input-data{
+    width: 49%;
+    height: 50px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-right: 0.5%;
+    margin-bottom: 25px;
+    background-color: #cddeff;
+    border:none;
+}
+::-webkit-input-placeholder {
+    color: #160096;
+}
+.input-data-message{
+    height: 90px;
+    padding: 10px 16px;
+    font-size: 12px;
+    line-height: 1.3333333;
+    background-color: #cddeff;
+    border:none;
+}
+.input-data-sec{
+    width: 48.5%;
+    height: 50px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    margin-left: 1%;
+    margin-bottom: 25px;
+    background-color: #cddeff;
+    border:none;
+}
+.container-box_image{
+    width: 40%;
+}
+.container-box_portfolio{
+    width: 60%;
+}
+.arrow-image{
+    margin-left: 10px;
+}
+.navbar-language_label{
+    width: 10%;
+    margin-right: 30px;
+}
+.navbar-language_btn{
+    width: 90%;
+}
+.btnContact{
+    padding-bottom: 15px;
+    color: #e30035;
+    box-shadow: 1px 2px 1px 1px lightgrey;
+    background-color: white;
+    height: 100%;
+    width: 40%;
+    border: none;
+}
+.navbar-logo{
+    width: 16%;
+}
+.navbar-menu{
+    width: 50%;
+}
+.navbar-language{
+    width: 34%;
+    display: flex;
+    justify-content: end;
+}
+.selectpicker{
+    border: none;
+}
+.under-blockInfo{
+    font-family: "WorkSans SemiBold";
+    color: #e30035;
+    font-size: 15px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.formInfo-contactUs{
+    font-family: "WorkSans SemiBold";
+    color: #e30035;
+    font-size: 15px;
+}
+.formInfo-getInTouch{
+    font-family: "WorkSans SemiBold";
+    font-size: 50px;
+    color: #160096;
+    margin-bottom: 30px;
+}
+.container-inputForm{
+    display: flex;
+    flex-direction: column;
+}
+.block{
+    margin: 15px;
+    width: 33.3%;
+    background-color: #99a7bf;
+    height: 230px;
+}
+li{
+    margin: 0 20px 0 20px;
+}
+.block1{
+    margin: 15px 15px 15px 0;
+    width: 33.3%;
+    background-color: #99a7bf;
+    height: 230px;
+}
+.block3{
+    margin: 15px 0 15px 15px;
+    width: 33.3%;
+    background-color: #99a7bf;
+    height: 230px;
+}
+.container_blocks{
+    display: flex;
+    flex-direction: column;
+}
+.first-block,.sec-block{
+    display: flex;
+    flex-direction: row;
+}
+.btnPortfolio{
+    color: white;
+    width: 170px;
+    border-radius: 30px;
+    height: 50px;
+    background-color: #e30035;
+    margin-right: 30px;
+    border: none;
+    outline: none;
+}
+.secondBtnPortfolio{
+    border:none;
+    color: #160096;
+    width: 140px;
+    border-radius: 30px;
+    height: 50px;
+    background-color: white;
+    outline: none;
+}
+.pre-blockInfo {
+    font-family: "WorkSans SemiBold";
+    color: #160096;
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+.menu{
+    justify-content: flex-start;
+    display: flex;
+    margin-bottom: 0;
+    list-style: none;
+    color: #160096;
+}
+.img-res{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: 30%;
+}
+
+.container-inputForm_areaSendBtn{
+    display: flex;
+    justify-content: center;
+}
+.input-data-sendBtn{
+    color: white;
+    width: 170px;
+    border-radius: 30px;
+    height: 50px;
+    background-color: #e30035;
+    margin-right: 30px;
+    border: none;
+    outline: none;
+    margin-top: 50px;
+}
+.humburger{
+    display: none;
+}
+
+h1{
+    margin-bottom: 45px;
+    margin-top: 60px;
+    font-family: "WorkSans SemiBold", sans-serif;
+    color: #160096;
+    font-size: 60px;
+}
+.container-form{
+    display: flex;
+    flex-direction: column;
+}
+.container-box_portfolio-text{
+    font-family: Coper Black Regular, sans-serif;
+    font-size: 20px;
+    color: #5f615e;
+    margin-bottom: 40px;
+}
+ul{
+    padding-inline-start: 0;
+}
+footer{
+    background-color: #1a3b8d;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .container {
+        width: 500px;
+    }
+}
+@media (min-width: 730px) and (max-width: 945px) {
+    .navbar-logo {
+        width: 10%;
+    }
+    .img-res {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-left: 22%;
+    }
+    .navbar-menu {
+        width: 56%;
+    }
+    .navbar-language {
+        width: 44%;
+        display: flex;
+        justify-content: end;
+    }
+    li {
+        margin: 0 15px 0 15px;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 830px) {
+    .humburger{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar-logo {
+        width: 40%;
+    }
+    .navbar-menu {
+        width: 10%;
+    }
+    .navbar-language {
+        margin-left: 20px;
+        width: 50%;
+        display: flex;
+        justify-content: end;
+    }
+    .menu{
+        display: none;
+    }
+    .nav > li > a {
+         position: relative;
+         display: block;
+         padding: 0;
+     }
+    h1 {
+        margin-bottom: 45px;
+        margin-top: 60px;
+        font-family: "WorkSans SemiBold", sans-serif;
+        color: #160096;
+        font-size: 40px;
+    }
+    .container-box_portfolio {
+        width: 50%;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 590px) {
+    .first-block, .sec-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .block,.block1,.block3{
+        margin: 15px 0 0 0;
+    }
+    .container-inputForm_info{
+        display: flex;
+        flex-direction: column;
+    }
+    .input-data-message {
+        height: 90px;
+        padding: 10px 16px;
+        font-size: 12px;
+        line-height: 1.3333333;
+        background-color: #cddeff;
+        border: none;
+        width: 60%;
+    }
+    li {
+        margin: 0 10px 0 10px;
+    }
+    .container-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .btnContact {
+        margin-left: 20px;
+        padding-bottom: 15px;
+        color: #e30035;
+        box-shadow: 1px 2px 1px 1px lightgrey;
+        background-color: white;
+        height: 100%;
+        width: 60%;
+        border: none;
+    }
+    .pre-blockInfo {
+        font-family: "WorkSans SemiBold";
+        color: #160096;
+        font-size: 40px;
+        margin-bottom: 40px;
+        margin-top: 50px;
+    }
+    .img-res {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-left: 20%;
+    }
+
+
+    .under-blockInfo {
+        justify-content: flex-start;
+        display: flex;
+        font-family: "WorkSans SemiBold";
+        color: #e30035;
+        font-size: 15px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .container-inputForm_areaSendBtn {
+        display: flex;
+        justify-content: end;
+    }
+}
